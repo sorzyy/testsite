@@ -9,6 +9,7 @@ services:
       - ./profile:/app/profile
     ports:
       - '4000:4000'
+
   frontend:
     build: ./frontend
     platform: "linux/arm64"
