@@ -1,0 +1,15 @@
+{
+  "name": "braintracker-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "better-sqlite3": "^9.0.0",
+    "node-cron": "^3.0.0",
+    "playwright": "^1.39.0"
+  }
+}
