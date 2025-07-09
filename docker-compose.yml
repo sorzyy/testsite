@@ -2,6 +2,7 @@ version: '3'
 services:
   backend:
     build: ./backend
+    platform: "linux/amd64"
     volumes:
       - ./backend:/app
       - ./extensions:/app/extensions
@@ -10,6 +11,7 @@ services:
       - '4000:4000'
   frontend:
     build: ./frontend
+    platform: "linux/amd64"
     volumes:
       - ./frontend:/app
     ports:
